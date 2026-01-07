@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid System with Subgrid</title>
+    <link rel="stylesheet" href="demo-grid.v3.css" />
+  </head>
+  <body>
+    <div class="main-grid">
+      <div class="hero">
+        <h1 class="main-title hero-title">Grid template</h1>
+        <img class="hero-img" src="//unsplash.it/600" alt="" />
+        <div class="hero-body">
+          <p>Lorem ipsum.</p>
+          <a class="btn" href="#">More</a>
+        </div>
+      </div>
+      <!-- .hero -->
+      <div class="cards base-columns three-columns">
+        <div class="card">
+          <img class="card-image" src="//unsplash.it/600" alt="" />
+          <h2 class="card-title">Windsor II</h2>
+          <h2 class="card-subtitle">Modern</h2>
+          <p class="card-body">4 BED | 3.5 BATH | 4346 SQ. FT | $702,743 +</p>
+        </div>
+        <div class="card">
+          <img class="card-image" src="//unsplash.it/600" alt="" />
+          <h2 class="card-title">Charleston II</h2>
+          <h2 class="card-subtitle">Modern Hill Country</h2>
+          <p class="card-body">4 BED | 2.5 BATH | 2833 SQ. FT | $453,709 +</p>
+        </div>
+        <div class="card">
+          <img class="card-image" src="//unsplash.it/600" alt="" />
+          <h2 class="card-title">Charleston III</h2>
+          <h2 class="card-subtitle">Traditional Farmhouse</h2>
+          <p class="card-body">4 BED | 3.5 BATH | 3751 SQ. FT | $678,054 +</p>
+        </div>
+        <div class="card">
+          <img class="card-image" src="//unsplash.it/600" alt="" />
+          <h2 class="card-title">Charleston III</h2>
+          <h2 class="card-subtitle">Traditional Farmhouse</h2>
+          <p class="card-body">4 BED | 3.5 BATH | 3751 SQ. FT | $678,054 +</p>
+        </div>
+      </div>
+      <!-- .section -->
+      <div class="section base-columns four-columns">
+        <div class="section-wrapper">
+          <h2 class="section-title">First</h2>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Second</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Third</h2>
+          <p class="section-body">
+            Nostrum possimus, porro ipsam iure soluta est!
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Fourth</h2>
+          <p class="section-body">
+            Nostrum possimus, porro ipsam iure soluta est!
+          </p>
+        </div>
+      </div>
+      <!-- .section -->
+      <!-- .section -->
+      <div class="section base-columns three-columns">
+        <div class="section-wrapper">
+          <h2 class="section-title">First</h2>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Second</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Third</h2>
+          <p class="section-body">
+            Nostrum possimus, porro ipsam iure soluta est!
+          </p>
+        </div>
+      </div>
+      <!-- .section -->
+      <div class="alt-section base-columns two-columns">
+        <div class="section-wrapper">
+          <h2 class="section-title">First</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Second</h2>
+          <p class="section-body">
+            Nostrum possimus, porro ipsam iure soluta est!
+          </p>
+        </div>
+      </div>
+      <!-- .alt-section -->
+      <div
+        class="alt-section-bg base-columns two-columns no-bleed"
+        style="--col-width: 3; --col-start: 3"
+      >
+        <div class="section-wrapper">
+          <h2 class="section-title">First</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Second</h2>
+          <p class="section-body">
+            Nostrum possimus, porro ipsam iure soluta est!
+          </p>
+        </div>
+      </div>
+      <!-- .alt-section-bg -->
+      <div
+        class="alt-section-bg-2 base-columns two-columns"
+        style="--col-width: 3; --col-start: 4"
+      >
+        <div class="section-wrapper">
+          <h2 class="section-title">First</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+        <div class="section-wrapper">
+          <h2 class="section-title">Second</h2>
+          <p class="section-body">
+            Nostrum possimus, porro ipsam iure soluta est!
+          </p>
+        </div>
+      </div>
+      <!-- .alt-section-bg-2 -->
+
+      <div class="one-two section base-columns three-columns">
+        <div 
+          class="section-wrapper one-third"  
+        >
+          <h2 class="section-title">One Third</h2>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <div 
+          class="section-wrapper two-thirds"
+        >
+          <h2 class="section-title">Two Thirds</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+      </div>
+      <!-- .one-two -->
+      <div class="two-one section base-columns three-columns">
+        <div 
+          class="section-wrapper two-thirds"  
+        >
+          <h2 class="section-title">Two Thirds</h2>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <div 
+          class="section-wrapper one-third"  
+        >
+          <h2 class="section-title">One Third</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+      </div>
+      <!-- .two-one -->
+      <div class="one-three section base-columns three-columns">
+        <div 
+          class="section-wrapper one-fourth"  
+        >
+          <h2 class="section-title">One Fourth</h2>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <div 
+          class="section-wrapper three-fourths"
+        >
+          <h2 class="section-title">Three Fourths</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+      </div>
+      <!-- .one-three -->
+      <div class="three-one section base-columns three-columns">
+        <div 
+          class="section-wrapper three-fourths"  
+        >
+          <h2 class="section-title">Three Fourths</h2>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
+        </div>
+        <div 
+          class="section-wrapper one-fourth"  
+        >
+          <h2 class="section-title">One Fourth</h2>
+          <p class="section-body">
+            Delectus perferendis doloribus mollitia quibusdam facere eius!
+          </p>
+        </div>
+      </div>
+      <!-- .three-one -->
+      <div class="alt-section-2 base-columns one-column">
+        <div>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+            consequuntur repellat facilis provident dolorum laborum blanditiis
+            veritatis, ipsa sequi cumque soluta quod fugiat dolorem quam.
+          </p>
+        </div>
+      </div>
+      <!-- .alt-section-2 -->     
+      <div class="img-copy base-columns two-columns">
+        <img
+          src="https://fastly.picsum.photos/id/672/600/600.jpg?hmac=vnNpzpM10mAGaBaM1Y-ICwO7ciU1J-NgDVHIsvvAxYg"
+          alt=""
+        />
+        <p class="center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+          quisquam distinctio laudantium velit similique a ducimus, quae sint,
+          adipisci quidem eaque voluptate illum aut. Dolorum inventore illum
+          molestiae atque possimus?
+        </p>
+      </div>
+      <!-- .full-split -->
+    </div>
+    <!-- .main-grid -->
+  </body>
+</html>
