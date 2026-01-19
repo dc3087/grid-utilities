@@ -93,8 +93,6 @@ The grid is defined by utility classes. Presentational styling has been separate
   }
 
   /* children */
-  /* by default: grid spans all but the first & last (padding) columns */
-  /* but this can be overridden via utility classes to enable full or partial bg bleeds */
   .main-grid > * {
     display: grid;
     grid-template-columns: minmax(1rem, 1fr) repeat(var(--column-count), minmax(0, 10rem)) minmax(1rem, 1fr); /* legacy browser fallback */
@@ -135,7 +133,7 @@ The grid is defined by utility classes. Presentational styling has been separate
       grid-column-end: span var(--col-width, var(--column-count));
     }
 
-    .main-grid > :not(:has(.custom-grid-cols)) > *:first-child {
+    .main-grid > :not(:has(.custom-grid-cols)):not(.content-lock) > *:first-child {
       grid-column-start: 1 !important; 
     }
 
